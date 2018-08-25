@@ -1,0 +1,69 @@
+---
+title: "Organization"
+---
+
+The volumns are:
+
+
+```{r, echo=FALSE, include=FALSE, comment=FALSE, message=FALSE}
+library(tidyverse, quietly = TRUE)
+library(kableExtra)
+```
+
+```{r, echo=FALSE}
+tribble( ~Volume, ~Link,
+      "![](images/common/EQM_v0_button.png){width=200px}", 
+         "[**Computer Setup**](https://cehs-research.github.io/eBook_install/)    
+ * Installing software (R, R Studio, and Packages)        
+ * workspace oridentation    
+ * notebook workflow    
+ * periodic updating",
+      
+      "![](images/common/EQM_v1_button.png){width=200px}", 
+         "[**Data Management**](https://cehs-research.github.io/eBook_wrangle/)    
+* Importing data files (SPSS, excel, csv, ect.)    
+* sub-setting (observations and variables)    
+* creating new variables      
+* saving revised data",
+      
+      "![](images/common/EQM_v2_button.png){width=200px}", 
+         "**Exploratory Data Analysis**    
+* Computing and tabulating summary statistics (M/SD, count/%)     
+* creating descriptive visualizations of distributions (boxplots, histograms) and relationships (scatter plots)",
+      
+      "![](images/common/EQM_v3_button.png){width=200px}", 
+         "**Testing Mean Differences**    
+* t-tests (independent groups, paired observations)    
+* ANOVA (independent or between subjects, 1-way, 2-way)    
+* RM ANOVA (repeated meausres, between subjects)    
+* mixed ANOVA (both independent and between subjects)    
+* visualizations (marginal means to prob interactions)    
+* post hoc tests (multiple corrections, contrast statements)",
+      
+      "![](images/common/EQM_v4_button.png){width=200px}", 
+         "**Regression**    
+* Calculating and visualizating correlation    
+* multiple regression models (fitting, tabulating results, graphicaly probing interactions)    
+* generalizing the distribution (GLM: logistic regression, poisson regression, ect.)",
+      
+      "![](images/common/EQM_v5_button.png){width=200px}", 
+         "**Mixed Effects Regression**    
+* Modeling clustered/hierarchical or longitudinal/repeated observations with multilevel models (MLM, LMM, GLMM, HLM), including:    
+     + computing ICCs    
+     + model fitting    
+     + tabulating results    
+     + visualizings (marginal means to prob interactions)    
+* generalized estimating equations (GEE)",
+      
+      "![](images/common/EQM_v6_button.png){width=200px}", 
+         "**Structural Equation Modeling**      
+* latent variables         
+* Path Analysis",
+      
+      "![](images/common/EQM_v7_button.png){width=200px}", 
+         "**Additional Topics**    
+* Room for Future Expansion") %>% 
+  
+  kableExtra::kable(align = c("c",  "l")) %>% 
+  column_spec(1, width = "18em") 
+```

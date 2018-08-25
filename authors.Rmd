@@ -1,0 +1,33 @@
+---
+title: "Authors"
+---
+
+The authors are:
+
+
+```{r, echo=FALSE, include=FALSE, comment=FALSE, message=FALSE}
+library(tidyverse, quietly = TRUE)
+library(kableExtra)
+```
+
+
+
+```{r, echo=FALSE}
+tribble( ~Sarah, ~Tyson,
+      "[www.SarahSchwartzStats.com](http://www.sarahschwartzstats.com/) ",
+      "[www.TysonBarrett.com](http://tysonbarrett.com/)",
+      "Sarah.Schwartz@usu.edu",
+      "Tyson.Battett@usu.edu",
+      "![](images/common/Sarah_headshot.jpg){width=300px}",
+      "![](images/common/Tyson_headshot.jpg){width=300px}",
+      "[Statistical Consulting Studio](https://cehs.usu.edu/research/statstudio/index)",
+      "[Data Science and Discover Unit](https://cehs.usu.edu/research/dsdu/index)",
+      "![](images/common/StatStudioLogo_dark_small.png){width=300px}",
+      "![](images/common/dsdu_logo.PNG){width=300px}") %>% 
+  data.frame() %>%
+  kableExtra::kable(col.names = c("Dr. Sarah Schwartz", 
+                                  "Dr. Tyson Barrett"),
+                    align = "c") %>% 
+  kableExtra::row_spec(row = 0,
+                       font_size = 20)
+```

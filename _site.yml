@@ -1,0 +1,20 @@
+name: "my-website"
+output_dir: "docs"
+navbar:
+  title: "Encyclopedia of Quantitative Methods in R"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Volume Links"
+      href: org.html
+    - text: "Authors"
+      href: authors.html
+output:
+  html_document:
+    theme: cerulean
+    highlight: haddock
+    include:
+      after_body: footer.html
+    css: style.css
+    
+      
