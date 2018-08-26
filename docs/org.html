@@ -20,7 +20,6 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 
 
 
@@ -191,113 +190,159 @@ $(document).ready(function () {
 </div>
 
 
-<p>The volumns are:</p>
+<div id="links-to-each-volume" class="section level2">
+<h2>Links to each Volume</h2>
+<p>The colored boxes are buttons that link to each individual volume.</p>
 <table>
 <thead>
 <tr>
 <th style="text-align:center;">
-Volume
+0
 </th>
-<th style="text-align:left;">
-Link
+<th style="text-align:center;">
+1
+</th>
+<th style="text-align:center;">
+2
+</th>
+<th style="text-align:center;">
+3
+</th>
+<th style="text-align:center;">
+4
+</th>
+<th style="text-align:center;">
+5
+</th>
+<th style="text-align:center;">
+6
+</th>
+<th style="text-align:center;">
+7
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v0_button.png" width="200" />
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_install/"><img src="images/common/EQM_v0_button_tall.png" alt="vol 0" /></a>
 </td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_install/"><strong>Computer Setup</strong></a><br />
-* Installing software (R, R Studio, and Packages)<br />
-* workspace oridentation<br />
-* notebook workflow<br />
-* periodic updating
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_wrangle/"><img src="images/common/EQM_v1_button_tall.png" alt="vol 1" /></a>
 </td>
-</tr>
-<tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v1_button.png" width="200" />
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_exploree/"><img src="images/common/EQM_v2_button_tall.png" alt="vol 2" /></a>
 </td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_wrangle/"><strong>Data Management</strong></a><br />
-* Importing data files (SPSS, excel, csv, ect.)<br />
-* sub-setting (observations and variables)<br />
-* creating new variables<br />
-* saving revised data
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_ANOVA/"><img src="images/common/EQM_v3_button_tall.png" alt="vol 3" /></a>
 </td>
-</tr>
-<tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v2_button.png" width="200" />
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_regression/"><img src="images/common/EQM_v4_button_tall.png" alt="vol 4" /></a>
 </td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_explore/"><strong>Exploratory Data Analysis</strong></a><br />
-* Computing and tabulating summary statistics (M/SD, count/%)<br />
-* creating descriptive visualizations of distributions (boxplots, histograms) and relationships (scatter plots)
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_multilevel/"><img src="images/common/EQM_v5_button_tall.png" alt="vol 5" /></a>
 </td>
-</tr>
-<tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v3_button.png" width="200" />
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_SEM/"><img src="images/common/EQM_v6_button_tall.png" alt="vol 6" /></a>
 </td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_ANOVA/"><strong>Testing Mean Differences</strong></a><br />
-* t-tests (independent groups, paired observations)<br />
-* ANOVA (independent or between subjects, 1-way, 2-way)<br />
-* RM ANOVA (repeated meausres, between subjects)<br />
-* mixed ANOVA (both independent and between subjects)<br />
-* visualizations (marginal means to prob interactions)<br />
-* post hoc tests (multiple corrections, contrast statements)
-</td>
-</tr>
-<tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v4_button.png" width="200" />
-</td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_regression/"><strong>Regression</strong></a><br />
-* Calculating and visualizating correlation<br />
-* multiple regression models (fitting, tabulating results, graphicaly probing interactions)<br />
-* generalizing the distribution (GLM: logistic regression, poisson regression, ect.)
-</td>
-</tr>
-<tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v5_button.png" width="200" />
-</td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_multilevel/"><strong>Mixed Effects Regression</strong></a><br />
-* Modeling clustered/hierarchical or longitudinal/repeated observations with multilevel models (MLM, LMM, GLMM, HLM), including:<br />
-+ computing ICCs<br />
-+ model fitting<br />
-+ tabulating results<br />
-+ visualizings (marginal means to prob interactions)<br />
-* generalized estimating equations (GEE)
-</td>
-</tr>
-<tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v6_button.png" width="200" />
-</td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_SEM/"><strong>Structural Equation Modeling</strong></a><br />
-* latent variables<br />
-* Path Analysis
-</td>
-</tr>
-<tr>
-<td style="text-align:center;width: 18em; ">
-<img src="images/common/EQM_v7_button.png" width="200" />
-</td>
-<td style="text-align:left;">
-<a href="https://cehs-research.github.io/eBook_misc/"><strong>Additional Topics</strong></a><br />
-* Room for Future Expansion
+<td style="text-align:center;">
+<a href="https://cehs-research.github.io/eBook_misc/"><img src="images/common/EQM_v7_button_tall.png" alt="vol 7" /></a>
 </td>
 </tr>
 </tbody>
 </table>
+</div>
+<div id="brief-outline" class="section level2">
+<h2>Brief Outline</h2>
+<div id="computer-setup" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_install/">Computer Setup</a></h3>
+<ul>
+<li>Installing software (R, R Studio, and Packages)<br />
+</li>
+<li>workspace oridentation<br />
+</li>
+<li>notebook workflow<br />
+</li>
+<li>periodic updating</li>
+</ul>
+</div>
+<div id="data-management" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_wrangle/">Data Management</a></h3>
+<ul>
+<li>Importing data files (SPSS, excel, csv, ect.)<br />
+</li>
+<li>sub-setting (observations and variables)<br />
+</li>
+<li>creating new variables<br />
+</li>
+<li>saving revised data</li>
+</ul>
+</div>
+<div id="exploratory-data-analysis" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_explore/">Exploratory Data Analysis</a></h3>
+<ul>
+<li>Computing and tabulating summary statistics (M/SD, count/%)<br />
+</li>
+<li>creating descriptive visualizations of distributions (boxplots, histograms) and relationships (scatter plots)</li>
+</ul>
+</div>
+<div id="testing-mean-differences" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_ANOVA/">Testing Mean Differences</a></h3>
+<ul>
+<li>t-tests (independent groups, paired observations)<br />
+</li>
+<li>ANOVA (independent or between subjects, 1-way, 2-way)<br />
+</li>
+<li>RM ANOVA (repeated meausres, between subjects)<br />
+</li>
+<li>mixed ANOVA (both independent and between subjects)<br />
+</li>
+<li>visualizations (marginal means to prob interactions)<br />
+</li>
+<li>post hoc tests (multiple corrections, contrast statements)</li>
+</ul>
+</div>
+<div id="regression" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_regression/">Regression</a></h3>
+<ul>
+<li>Calculating and visualizating correlation<br />
+</li>
+<li>multiple regression models (fitting, tabulating results, graphicaly probing interactions)<br />
+</li>
+<li>generalizing the distribution (GLM: logistic regression, poisson regression, ect.)</li>
+</ul>
+</div>
+<div id="mixed-effects-regression" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_multilevel/">Mixed Effects Regression</a></h3>
+<ul>
+<li>Modeling clustered/hierarchical or longitudinal/repeated observations with multilevel models (MLM, LMM, GLMM, HLM), including:<br />
+</li>
+<li>computing ICCs<br />
+</li>
+<li>model fitting<br />
+</li>
+<li>tabulating results<br />
+</li>
+<li>visualizings (marginal means to prob interactions)<br />
+</li>
+<li>generalized estimating equations (GEE)</li>
+</ul>
+</div>
+<div id="structural-equation-modeling" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_SEM/">Structural Equation Modeling</a></h3>
+<ul>
+<li>latent variables<br />
+</li>
+<li>Path Analysis</li>
+</ul>
+</div>
+<div id="additional-topics" class="section level3">
+<h3><a href="https://cehs-research.github.io/eBook_misc/">Additional Topics</a></h3>
+<ul>
+<li>Room for Future Expansion</li>
+</ul>
+</div>
+</div>
 
 <p>Copyright &copy; 2018 Sarah Schwartz & Tyson Barrett. All rights reserved.</p>
 

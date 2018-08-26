@@ -2,7 +2,7 @@
 title: "Organization"
 ---
 
-The volumns are:
+
 
 
 ```{r, echo=FALSE, include=FALSE, comment=FALSE, message=FALSE}
@@ -10,60 +10,93 @@ library(tidyverse, quietly = TRUE)
 library(kableExtra)
 ```
 
+
+## Links to each Volume
+
+The colored boxes are buttons that link to each individual volume.
+
+
 ```{r, echo=FALSE}
-tribble( ~Volume, ~Link,
-      "![](images/common/EQM_v0_button.png){width=200px}", 
-         "[**Computer Setup**](https://cehs-research.github.io/eBook_install/)    
- * Installing software (R, R Studio, and Packages)        
- * workspace oridentation    
- * notebook workflow    
- * periodic updating",
-      
-      "![](images/common/EQM_v1_button.png){width=200px}", 
-         "[**Data Management**](https://cehs-research.github.io/eBook_wrangle/)    
+data.frame("v0" = c("[![vol 0](images/common/EQM_v0_button_tall.png)](https://cehs-research.github.io/eBook_install/)"),
+           "v1" = c("[![vol 1](images/common/EQM_v1_button_tall.png)](https://cehs-research.github.io/eBook_wrangle/)"),
+           "v2" = c("[![vol 2](images/common/EQM_v2_button_tall.png)](https://cehs-research.github.io/eBook_exploree/)"),
+           "v3" = c("[![vol 3](images/common/EQM_v3_button_tall.png)](https://cehs-research.github.io/eBook_ANOVA/)"),
+           "v4" = c("[![vol 4](images/common/EQM_v4_button_tall.png)](https://cehs-research.github.io/eBook_regression/)"),
+           "v5" = c("[![vol 5](images/common/EQM_v5_button_tall.png)](https://cehs-research.github.io/eBook_multilevel/)"),
+           "v6" = c("[![vol 6](images/common/EQM_v6_button_tall.png)](https://cehs-research.github.io/eBook_SEM/)"),
+           "v7" = c("[![vol 7](images/common/EQM_v7_button_tall.png)](https://cehs-research.github.io/eBook_misc/)")) %>% kableExtra::kable(col.names = c("0", "1", "2", "3", "4", "5", "6", "7"), 
+                                                                                                                                            align = "c")
+```
+
+
+
+## Brief Outline
+
+
+### [Computer Setup](https://cehs-research.github.io/eBook_install/)    
+
+* Installing software (R, R Studio, and Packages)        
+* workspace oridentation    
+* notebook workflow    
+* periodic updating
+
+
+
+### [Data Management](https://cehs-research.github.io/eBook_wrangle/)    
+
 * Importing data files (SPSS, excel, csv, ect.)    
 * sub-setting (observations and variables)    
 * creating new variables      
-* saving revised data",
-      
-      "![](images/common/EQM_v2_button.png){width=200px}", 
-         "[**Exploratory Data Analysis**](https://cehs-research.github.io/eBook_explore/)    
+* saving revised data
+
+
+
+### [Exploratory Data Analysis](https://cehs-research.github.io/eBook_explore/)  
+
 * Computing and tabulating summary statistics (M/SD, count/%)     
-* creating descriptive visualizations of distributions (boxplots, histograms) and relationships (scatter plots)",
-      
-      "![](images/common/EQM_v3_button.png){width=200px}", 
-         "[**Testing Mean Differences**](https://cehs-research.github.io/eBook_ANOVA/)    
+* creating descriptive visualizations of distributions (boxplots, histograms) and relationships (scatter plots)
+
+
+
+### [Testing Mean Differences](https://cehs-research.github.io/eBook_ANOVA/) 
+
 * t-tests (independent groups, paired observations)    
 * ANOVA (independent or between subjects, 1-way, 2-way)    
 * RM ANOVA (repeated meausres, between subjects)    
 * mixed ANOVA (both independent and between subjects)    
 * visualizations (marginal means to prob interactions)    
-* post hoc tests (multiple corrections, contrast statements)",
-      
-      "![](images/common/EQM_v4_button.png){width=200px}", 
-         "[**Regression**](https://cehs-research.github.io/eBook_regression/)    
+* post hoc tests (multiple corrections, contrast statements)
+
+
+
+### [Regression](https://cehs-research.github.io/eBook_regression/)  
+
 * Calculating and visualizating correlation    
 * multiple regression models (fitting, tabulating results, graphicaly probing interactions)    
-* generalizing the distribution (GLM: logistic regression, poisson regression, ect.)",
-      
-      "![](images/common/EQM_v5_button.png){width=200px}", 
-         "[**Mixed Effects Regression**](https://cehs-research.github.io/eBook_multilevel/)    
+* generalizing the distribution (GLM: logistic regression, poisson regression, ect.)
+
+
+
+### [Mixed Effects Regression](https://cehs-research.github.io/eBook_multilevel/) 
+
 * Modeling clustered/hierarchical or longitudinal/repeated observations with multilevel models (MLM, LMM, GLMM, HLM), including:    
-     + computing ICCs    
-     + model fitting    
-     + tabulating results    
-     + visualizings (marginal means to prob interactions)    
-* generalized estimating equations (GEE)",
-      
-      "![](images/common/EQM_v6_button.png){width=200px}", 
-         "[**Structural Equation Modeling**](https://cehs-research.github.io/eBook_SEM/)      
+   + computing ICCs    
+   + model fitting    
+   + tabulating results    
+   + visualizings (marginal means to prob interactions)    
+* generalized estimating equations (GEE)
+
+
+
+### [Structural Equation Modeling](https://cehs-research.github.io/eBook_SEM/)      
+
 * latent variables         
-* Path Analysis",
-      
-      "![](images/common/EQM_v7_button.png){width=200px}", 
-         "[**Additional Topics**](https://cehs-research.github.io/eBook_misc/)    
-* Room for Future Expansion") %>% 
-  
-  kableExtra::kable(align = c("c",  "l")) %>% 
-  column_spec(1, width = "18em") 
-```
+* Path Analysis
+
+
+
+### [Additional Topics](https://cehs-research.github.io/eBook_misc/)    
+
+* Room for Future Expansion
+
+
