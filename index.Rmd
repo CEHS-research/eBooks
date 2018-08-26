@@ -1,5 +1,5 @@
 ---
-title: "The Encyclopedia Project"
+title: "The Encyclopedia"
 ---
 
 
@@ -22,5 +22,5 @@ The three main purposes are to:
 
 
 
-![](images/common/Education_Logo_WHITE-02.png){width=350px}
+![](images/common/USU_3_logos.png)
 

@@ -1,7 +1,7 @@
 name: "my-website"
 output_dir: "docs"
 navbar:
-  title: "Encyclopedia of Quantitative Methods in R"
+  title: "Quantitative Methods in R"
   right:
     - text: "Home"
       href: index.html
