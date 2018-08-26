@@ -2,12 +2,13 @@
 title: "The Encyclopedia Project"
 ---
 
-![](images/common/eBooks_logo_all_wide.png)
 
 
 ## Background
 
 This encyclopedia of eBooks is being developed by the [Office of Research Services](https://cehs.usu.edu/research/index) to serves the faculty and graduate students in the [College of Education and Human Services](https://cehs.usu.edu/) at [Utah State University](http://www.usu.edu/).  
+
+![](images/common/eBooks_logo_all_wide.PNG)
 
 
 ## Purposes
