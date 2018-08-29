@@ -14,10 +14,10 @@ library(kableExtra)
 
 ```{r, echo=FALSE}
 tribble( ~Sarah, ~Tyson,
-      "[www.SarahSchwartzStats.com](http://www.sarahschwartzstats.com/) ",
-      "[www.TysonBarrett.com](http://tysonbarrett.com/)",
+      "[SarahSchwartzStats.com](http://www.sarahschwartzstats.com/) ",
+      "[TysonBarrett.com](http://tysonbarrett.com/)",
       "Sarah.Schwartz@usu.edu",
-      "Tyson.Battett@usu.edu",
+      "Tyson.Barrett@usu.edu",
       "![](images/common/Sarah_headshot.jpg){width=300px}",
       "![](images/common/Tyson_headshot.jpg){width=300px}",
       "[Statistical Consulting Studio](https://cehs.usu.edu/research/statstudio/index)",
