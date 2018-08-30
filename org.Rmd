@@ -35,26 +35,26 @@ data.frame("v0" = c("[![vol 0](images/common/EQM_v0_button_tall.png)](https://ce
 
 ### [Computer Setup](https://cehs-research.github.io/eBook_install/)    
 
-* Installing software (R, R Studio, and Packages)        
-* workspace oridentation    
-* notebook workflow    
-* periodic updating
+* Installing software (R, RStudio, and packages)        
+* Workspace orientation   
+* Notebook workflow    
+* Periodic updating
 
 
 
 ### [Data Management](https://cehs-research.github.io/eBook_wrangle/)    
 
-* Importing data files (SPSS, excel, csv, ect.)    
-* sub-setting (observations and variables)    
-* creating new variables      
-* saving revised data
+* Importing data files (SPSS, Excel, CSV, ect.)    
+* Sub-setting (observations and variables)    
+* Creating new variables      
+* Saving revised data
 
 
 
 ### [Exploratory Data Analysis](https://cehs-research.github.io/eBook_explore/)  
 
 * Computing and tabulating summary statistics (M/SD, count/%)     
-* creating descriptive visualizations of distributions (boxplots, histograms) and relationships (scatter plots)
+* Creating descriptive visualizations of distributions (boxplots, histograms) and relationships (scatter plots)
 
 
 
@@ -63,34 +63,35 @@ data.frame("v0" = c("[![vol 0](images/common/EQM_v0_button_tall.png)](https://ce
 * t-tests (independent groups, paired observations)    
 * ANOVA (independent or between subjects, 1-way, 2-way)    
 * RM ANOVA (repeated meausres, between subjects)    
-* mixed ANOVA (both independent and between subjects)    
-* visualizations (marginal means to prob interactions)    
-* post hoc tests (multiple corrections, contrast statements)
+* Mixed ANOVA (both independent and between subjects)    
+* Visualizations (marginal means to prob interactions)    
+* Post hoc tests (multiple corrections, contrast statements)
 
 
 
 ### [Regression](https://cehs-research.github.io/eBook_regression/)  
 
 * Calculating and visualizating correlation    
-* multiple regression models (fitting, tabulating results, graphicaly probing interactions)    
-* generalizing the distribution (GLM: logistic regression, poisson regression, ect.)
-
+* Multiple regression models (fitting, tabulating results, graphicaly probing interactions)    
+* Generalizing the distribution (GLM: logistic regression, poisson regression, ect.)
+* Moderation and Mediation
+* Average Marginal Effects
 
 
 ### [Mixed Effects Regression](https://cehs-research.github.io/eBook_multilevel/) 
 
 * Modeling clustered/hierarchical or longitudinal/repeated observations with multilevel models (MLM, LMM, GLMM, HLM), including:    
-   + computing ICCs    
-   + model fitting    
-   + tabulating results    
-   + visualizings (marginal means to prob interactions)    
-* generalized estimating equations (GEE)
+   + Computing ICCs    
+   + Model fitting    
+   + Tabulating results    
+   + Visualizings (marginal means to prob interactions)    
+* Generalized Estimating Equations (GEE)
 
 
 
 ### [Structural Equation Modeling](https://cehs-research.github.io/eBook_SEM/)      
 
-* latent variables         
+* Latent variables         
 * Path Analysis
 
 
