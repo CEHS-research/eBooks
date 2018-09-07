@@ -1,5 +1,12 @@
+.sourceCode {
+  background: #ccebff !important;
+  border-radius: 15px;
+}
+
+
+
+
 .rmddownload {
-  padding: 1em 1em 1em 4em;
   border-radius: 15px;
   margin-bottom: 10px;
   background: #ffb366 5px center/3em no-repeat;
@@ -21,7 +28,7 @@
   padding: 1em 1em 1em 4em;
   border-radius: 15px;
   margin-bottom: 10px;
-  background: #AED6F1 5px center/3em no-repeat;
+  background: #a3d69f 5px center/3em no-repeat;
   background-image: url("images/common/circle_link.png");
 }
 
@@ -29,7 +36,7 @@
   padding: 1em 1em 1em 4em;
   border-radius: 15px;
   margin-bottom: 10px;
-  background: #a3d69f 5px center/3em no-repeat;
+  background: #e6ccff 5px center/3em no-repeat;
   background-image: url("images/common/lightbulb.png");
 }
 
@@ -47,12 +54,7 @@ image{
 }
 
 table {
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  width: 90%;
-  font-size: 1em;
+  font-size: .833em;
   text-align: center;
   vertical-align: center;
   border-style: solid;
@@ -60,23 +62,14 @@ table {
   border-color: #595959;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
-
 table th {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: center;
   background-color: #a6a6a6;
   color: white;
   font-weight: bold;
   font-size: 1.5em;
-}
-
-table td {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 caption {
