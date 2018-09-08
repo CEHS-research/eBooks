@@ -19,7 +19,7 @@ The colored boxes are buttons that link to each individual volume.
 ```{r, echo=FALSE}
 data.frame("v0" = c("[![vol 0](images/common/EQM_v0_button_tall.png)](https://cehs-research.github.io/eBook_install/)"),
            "v1" = c("[![vol 1](images/common/EQM_v1_button_tall.png)](https://cehs-research.github.io/eBook_wrangle/)"),
-           "v2" = c("[![vol 2](images/common/EQM_v2_button_tall.png)](https://cehs-research.github.io/eBook_exploree/)"),
+           "v2" = c("[![vol 2](images/common/EQM_v2_button_tall.png)](https://cehs-research.github.io/eBook_explore/)"),
            "v3" = c("[![vol 3](images/common/EQM_v3_button_tall.png)](https://cehs-research.github.io/eBook_ANOVA/)"),
            "v4" = c("[![vol 4](images/common/EQM_v4_button_tall.png)](https://cehs-research.github.io/eBook_regression/)"),
            "v5" = c("[![vol 5](images/common/EQM_v5_button_tall.png)](https://cehs-research.github.io/eBook_multilevel/)"),
